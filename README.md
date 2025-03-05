@@ -24,7 +24,7 @@ This project is a web-based platform designed to assist individuals seeking Subo
 3. Install dependencies:
 
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 4. Start the development server:
