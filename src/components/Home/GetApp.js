@@ -17,7 +17,7 @@ const GetApp = () => {
         ></div>
       </div>
 
-      {/* Content Wrapper (Centered) */}
+      {/* Content Wrapper*/}
       <div className="relative flex flex-col items-center text-center mx-auto space-y-7">
         <h1 className="text-base md:text-2xl font-medium text-black leading-tight uppercase">
           Secure Access to your medications

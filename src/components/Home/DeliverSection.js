@@ -4,7 +4,6 @@ const DeliverSection = () => {
   return (
     <div className="relative max-w-screen-3xl mx-auto w-full px-6 lg:px-0  py-12 md:py-20 text-black">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-16">
-        {/* Left Content */}
         <div className="">
           <h1 className="text-base md:text-2xl font-medium text-primary leading-6 mb-2 uppercase">
             Welcome To Recovery Delivered
@@ -22,16 +21,12 @@ const DeliverSection = () => {
           </p>
         </div>
 
-        {/* Right Image Section */}
         <div className="relative flex justify-center">
-          {/* Background PNG with No Pixelation */}
           <img
             src="/assets/images/bg-img2.png"
             alt="Recovery Delivered"
             className=" rounded-2xl shadow-lg object-contain z-0"
           />
-
-          {/* Centered SVG */}
           <img
             src="/assets/svgs/play.svg"
             alt="Play Button"

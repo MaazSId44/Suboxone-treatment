@@ -74,7 +74,6 @@ const Testimonials = () => {
   };
   return (
     <div className="relative max-w-screen-3xl mx-auto w-full px-6 lg:px-0  py-12 md:py-12 text-black mb-20">
-      {/* Header with title and navigation buttons */}
       <div className="flex justify-between items-center mb-5">
         <div className="">
           <h1 className="text-base md:text-2xl font-medium text-primary leading-6 mb-2 uppercase">

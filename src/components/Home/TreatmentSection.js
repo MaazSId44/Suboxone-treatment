@@ -8,10 +8,8 @@ const TreatmentSection = () => {
       className="relative  "
       style={{
         background: "linear-gradient(120deg, #FFFFFF 0, #49C7AB 150%)",
-        // opacity: "0.",
       }}
     >
-      {/* Centered GIF */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img
           src="/assets/gifs/treatmentbg.gif"
@@ -22,7 +20,6 @@ const TreatmentSection = () => {
 
       {/* Content */}
       <div className="relative max-w-screen-3xl mx-auto w-full px-6 lg:px-0 py-[90px] text-black">
-        {/* <h1 className="text-3xl font-bold">Treatment Section</h1> */}
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-5">
           {/* Text Content */}
           <div className="text-center md:text-left">

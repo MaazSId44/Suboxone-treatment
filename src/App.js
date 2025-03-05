@@ -19,7 +19,6 @@ const Hero = () => {
       <FeaturedOnSection />
       <StateSection />
       <GetApp />
-
       <Footer />
     </div>
   );
