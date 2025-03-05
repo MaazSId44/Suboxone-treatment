@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/public/fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
+       url('/public/fonts/CabinetGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Cabinet Grotesk", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.usa-state {
+  fill: #49C7AB !important;
+  stroke: #6B8B9E !important;
+}
+.usa-state:hover {
+  fill: #389481 !important;
+  stroke-width: 3px;
+}
+
+.group .swiper-slide:hover {
+  transform: rotate(-3deg);
+}
